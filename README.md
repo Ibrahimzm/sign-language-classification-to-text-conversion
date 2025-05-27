@@ -98,3 +98,12 @@ pip install tensorflow mediapipe opencv-python numpy RPLCD
 
 python realtime.py
 
+
+## 🏆 Achievements
+
+- 🥇 **Won 1st Place** in the Final Year Project (FYP) Competition at Qassim University - College of Computer
+- ✅ Achieved **99% test accuracy** and **98% validation accuracy** across 29 ASL gesture classes
+- ✅ Deployed a **real-time recognition system** on Raspberry Pi with a live LCD output
+![a233377e-c17c-4234-af57-de69b6000d30](https://github.com/user-attachments/assets/29a7668d-bb9f-4bb2-a08d-aed5e1397a19)
+
+
