@@ -11,6 +11,8 @@ This project presents a low-cost, real-time sign language recognition system tha
 Sign language is a critical tool for communication among individuals with hearing and speech impairments. However, a lack of understanding among non-signers creates a communication barrier. This project addresses that gap by developing a real-time gesture recognition system based on computer vision and deep learning.
 
 Using a camera and MediaPipe, the system detects ASL hand gestures and classifies them into 29 categories (26 alphabetic letters plus `space`, `next`, and `delete`). The model was trained using landmark coordinates instead of raw image data, allowing efficient deployment on a Raspberry Pi 5 with a connected LCD screen. The system is accurate, portable, and practical for daily use.
+![image](https://github.com/user-attachments/assets/bef334ed-4b12-4302-b452-7ab1f273e7b2)
+
 
 ---
 
@@ -55,6 +57,8 @@ A fully connected neural network was used for gesture classification.
 - **Dense layer 1**: 128 units + ReLU + Dropout (30%)
 - **Dense layer 2**: 64 units + ReLU + Dropout (30%)
 - **Output layer**: 29 units + Softmax (for multi-class classification)
+![image](https://github.com/user-attachments/assets/45a1c6a4-eaa9-48a3-b8e0-19ce87a2976a)
+
 
 ### Training Details:
 - Optimizer: Adam  
